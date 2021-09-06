@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 2px;
+}
+
+h1 {
+    padding: 4rem;
+}
+
+.logo {
+    width: 6.9%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.principal { 
+    height: 100px;
+    background-color: #132235;
+    font-size: 10rem;
+}
+
+.divcabecalho1 {
+    margin-top: 35px;
+    color: white;
+}
+
+.divcabecalho1:active {
+    color: #6ddad3;
+}
+
+header{
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.principal a {
+    margin: 10rem;
+}
+
+button { 
+    justify-content: center; 
+    top: 470px;
+    border: 1px solid #000000;
+    background: #6ddad3;
+    border-radius: 4rem;
+    width: 45rem;
+    height: 20rem;
+} 
+
+.divcabecalho2 {
+    margin-top: 10rem;
+}
+
+h2 {
+    margin-top: 20rem;
+    margin-left: 15rem;
+    font-size: 20rem;
+    font-family: Trebuchet;
+    font-size: 22rem;
+}
+
+h5 {
+    margin-left: 15rem;
+    margin-top: 5rem;
+    font-family: Trebuchet;
+    font-size: 8rem;
+    
+}
+
+h3 {
+    margin-left: 15rem;
+    margin-top: 30rem;
+    margin-bottom: 10rem;
+    font-family: Trebuchet;
+    font-size: 14rem;
+}
+
+h6 {
+    margin-top: 20rem;
+    margin-left: 15rem;
+    font-size: 20rem;
+    font-family: Trebuchet;
+    font-size: 22rem;
+}
+
+p {
+    padding: 10rem;
+    width: 76%;
+}
+
+.depoimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 20rem;
+    gap: 8rem;
+    margin-left: 16rem;
+    margin-right: 10rem;
+    font-size: 8rem;
+    font-family: Trebuchet;
+
+}
+
+.imagem-moradores {
+    width: 50%;
+    height: 50%;
+    margin-top: 6rem;
+    border: solid 1px linen;
+    box-shadow: 0px 2rem 5rem lightgray;
+    border-radius: 3rem;
+}
+
+.moradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+    box-shadow: 0px 5rem 10rem darkgray;
+    border-radius: 4rem;
+    width: 160rem;
+    height: 200rem;
+
+}
+
+.sobre-nos {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20rem;
+    align-items: center;
+    text-align: left;    
+    
+}
+
+.sobre-nos-terceira-pagina {
+    margin-left: 25rem;
+    margin-top: 20rem;
+    font-size: 10rem;
+    font-family: Trebuchet
+}
+
+
+li {
+    display: inline-block;
+}
+
+.icone-redes-sociais a {
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 20rem;
+    margin-right: 8rem;
+}
+
+#instagram {
+    margin-left: 20rem;
+}
+
+footer {
+    display: flex;
+    background-color: #132235;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    width: 100%;
+  }
+
+  @media screen and (max-device-width: 500px) {
+    .depoimentos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10rem;
+    }
+
+
+    .sobre-nos {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20rem;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .sobre-nos-terceira-pagina {
+        margin-left: 1%;
+        margin-top: 5rem;
+        font-size: 10rem;
+        font-family: Trebuchet
+    }
+
+    h2 {
+        margin-top: 20rem;
+        margin-left: 40rem;
+    }
+
+    h3 {
+        margin-left: 16rem;
+    }
+
+    h5 {
+        margin-left: 48rem;
+    }
+
+    h6 {
+        margin-top: 20rem;
+        margin-left: 10rem;
+    }
+
+   .icone-redes-sociais {
+       margin-left: 12%;  
+   }
+
+   .principal { 
+    height: 120px;
+    width: 100vw;
+   }
+
+   .divcabecalho1 {
+       margin-top: 10rem;
+   }
+
+   .divcabecalho2 {
+    margin-top: 10rem;
+   }
+
+   .telefone {
+       font-size: 5.7rem;
+   }
+
+   .logo {
+       height: 50rem;
+       width: 50rem;
+   }
+
+   button {
+       height: 10rem;
+   }
+}
+
+
+
+  

@@ -1,0 +1,400 @@
+/* No blog, essa estilização é de todos os parágrafos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.principal { 
+    height: 100px;
+    background-color: #132235;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.divcabecalho1 {
+    margin-top: 35px;
+}
+
+.divcabecalho2 {
+    margin-top: 35px;
+}
+.botaoInicial {
+    color: white;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    padding-right: 50px;
+}
+
+.botaoapartamentos {
+    color: white; 
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    padding-right: 50px;
+}
+
+.botaoUltimaPagina {
+    color: white;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    padding-right: 50px;
+}
+.botaoLogin { 
+    color: white;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px; 
+    padding-right: 50px;
+}
+.telefone {
+    color: white;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container {
+    background-color: white;
+    height: 70vh;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 30px;
+    align-content: center;
+}
+
+p {
+    position: absolute;
+    width: 300px;
+    height: 233px;
+    left: 112px;
+    top: 140px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    margin-top: 10px;
+
+}
+
+.imageminicial {
+    width: 452px;
+    height: 404px;
+    left: 500px;
+    top: 180px;
+    align-content: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 44px rgba(109, 218, 211)
+}
+
+.texto1 {
+    position: absolute;
+    width: 400px;
+    height: 233px;
+    left: 112px;
+    top: 350px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+button { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    left: 112px;
+    top: 470px;
+    border: 1px solid #000000;
+    background: #6ddad3;
+    box-shadow: 0px 0px 44px rgba(109, 218, 211);
+    border-radius: 8px;
+}
+
+.botao2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    left: 296px;
+    top: 470px;
+    background-color: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.tituloSecaoDois {
+    position: absolute;
+    width: 650px;
+    height: 128px;
+    left: 74px;
+    top: 690px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 40px;
+    line-height: 64px;
+    font-feature-settings: "salt" on, "liga", off;
+    color: black;
+}
+.textoSecaoDois {
+    position:absolute;
+    width: 573px;
+    height: 192px;
+    left: 74px;
+    top: 850px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.imagemleroy {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 810px;
+    top: 700px;
+    background: url(leroy-merlin.png);
+    box-shadow: 0px 0px 44px rgb(255, 255, 255)
+}
+.imagemtenda {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 960px;
+    top: 700px;
+    background: url(Tenda-Logo.png);
+    box-shadow: 0px 0px 44px rgb(255, 255, 255)
+}
+.imagemlider {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 810px;
+    top: 845px;
+    box-shadow: 0px 0px 44px rgb(255, 255, 255)
+}
+
+.imagemcanopus {
+    position: absolute;
+    width: 168px;
+    height: 56px;
+    left: 960px;
+    top: 845px;
+    box-shadow: 0px 0px 44px rgb(255, 255, 255)
+}
+.secaoTres {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 10px;
+
+}
+
+.icone1 {
+    background-color: whitesmoke;
+
+}
+
+.imagemwifi {
+    position: absolute;
+    width: 101px;
+    height: 100px;
+    left: 150px;
+    top: 1050px;
+    box-shadow: 0px 0px 44px rgb(255, 255, 255)
+}
+
+.imagemAr {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 440px;
+    top: 1050px;
+    box-shadow: 0px 0px 44px rgb(255, 255, 255)
+}
+
+.imagemTv {
+    position: absolute;
+    width: 101px;
+    height: 100px;
+    left: 720px;
+    top: 1050px;
+    box-shadow: 0px 0px 44px rgb(255, 255, 255)
+}
+
+.imagembanheiro {
+    position: absolute;
+    width: 101px;
+    height: 100px;
+    left: 1000px;
+    top: 1050px;
+    box-shadow: 0px 0px 44px rgb(255, 255, 255)
+}
+
+.textowifi {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    left: 145px;
+    top: 1150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+.textoar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    width: 259px;
+    height: 30px;
+    left: 420px;
+    top: 1150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+.textotv {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    width: 208px;
+    height: 30px;
+    left: 730px;
+    top: 1150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+.textobanheiro {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    width: 208px;
+    height: 30px;
+    left: 970px;
+    top: 1150px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+
+.descricaowifi {
+    position: absolute;
+width: 252px;
+height: 72px;
+left: 80px;
+top: 1200px;
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+}
+
+.descricaoar {
+    position: absolute;
+    width: 252px;
+    height: 72px;
+    left: 370px;
+    top: 1200px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.descricaotv {
+    position: absolute;
+    width: 252px;
+    height: 72px;
+    left: 650px;
+    top: 1200px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.descricaobanheiro {
+    position: absolute;
+    width: 252px;
+    height: 72px;
+    left: 930px;
+    top: 1200px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: #132235;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    grid-column: 1/-1;
+  }
